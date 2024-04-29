@@ -26,11 +26,13 @@ public class Fantasy extends AbstractFantasy implements Dream {
 
     @Override
     public String methodMicroscope3(String argHelmet5) {
-        return "argHelmet6";
+        return "Helmet:" + argHelmet5;
     }
 
     @Override
     public List<String> methodDisease4(String argThermodynamics6) {
-        return new ArrayList<>();
+        List<String> Disease = new ArrayList<>();
+        Disease.add(argThermodynamics6);
+        return Disease;
     }
 }
